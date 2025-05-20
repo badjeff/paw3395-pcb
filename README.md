@@ -42,6 +42,8 @@ Online preview avaliable [here](https://kicanvas.org/?github=https%3A%2F%2Fgithu
 - SMD 0603 (Imperial) aka 1608 Metric.
 - PAW3395DM-T6QU needs to be used with *compact* LOAE-LSI1 lens, or *chonky* LM19-LSI lens.
 - ~~`U1` LDO can be replace by RT9193-18GB, change `C10` to 22nF.~~
+- `U1` LDO can be replace by XC6219B182MR.
+- `C1` can be replace by 3.3uF.
 
 ### Board Characteristics
 
