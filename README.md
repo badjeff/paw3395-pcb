@@ -4,6 +4,7 @@
 
 - Be operated with 3.3V voltage level ONLY.
 - Outlined as narrow as possible for side mount horizontally and perpendicular on low profile keyboards.
+- Developed for [zmk-paw3395-driver](https://github.com/badjeff/zmk-paw3395-driver)
 
 <img src="photo-1.jpg" width="400">
 
