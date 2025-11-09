@@ -20,7 +20,7 @@ Online preview avaliable [here](https://kicanvas.org/?github=https%3A%2F%2Fgithu
 
 <img src="board-3d.png" width="400">
 
-*Figure 2: PCB 3D View - 1.6mm FR4*
+*Figure 3: PCB 3D View - 1.6mm FR4*
 
 ### BOM
 
