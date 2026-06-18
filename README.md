@@ -1,10 +1,11 @@
 # PAW3395 PCB
 
-[PixArt PAW3395DM-T6QU](https://www.pixart.com/products-detail/129/PAW3395DM-T6QU) low power laser mouse sensor breakout board.
+PixArt [**PAW3395DM-T6QU**](https://www.pixart.com/products-detail/129/PAW3395DM-T6QU) low power laser mouse sensor breakout board.
 
+- Compatible to **PAW3950DM-T5QU**.
 - Be operated with 3.3V voltage level ONLY.
 - Outlined as narrow as possible for side mount horizontally and perpendicular on low profile keyboards.
-- Developed for [zmk-paw3395-driver](https://github.com/badjeff/zmk-paw3395-driver)
+- Developed for [zmk-paw3395-driver](https://github.com/badjeff/zmk-paw3395-driver) and [zmk-paw3950-driver](https://github.com/badjeff/zmk-paw3950-driver)
 
 <img src="photo-1.jpg" width="400">
 
@@ -37,14 +38,24 @@ Online preview avaliable [here](https://kicanvas.org/?github=https%3A%2F%2Fgithu
 |R3|SMD 0603|1|2M|C22976|
 |U1|SOT-23-5|1|TLV74318PDBVR||
 |U2|PAW3395DM-T6QU|1|PAW3395||
-|J1,J2|2.54mm Pin header||1x2, 1x5||
+|  |PAW3950DM-T5QU|1|PAW3950||
 
 - DNI: don't install.
 - SMD 0603 (Imperial) aka 1608 Metric.
-- PAW3395DM-T6QU needs to be used with *compact* LOAE-LSI1 lens, or *chonky* LM19-LSI lens.
 - ~~`U1` LDO can be replace by RT9193-18GB, change `C10` to 22nF.~~
-- `U1` LDO can be replace by XC6219B182MR.
+- `U1` LDO can be replace by XC6219B182MR or TLV75519PDBVR
 - `C1` can be replace by 3.3uF.
+- For **PAW3395** Option
+  * PAW3395DM-T6QU needs to be used with *compact* LOAE-LSI1 lens, or *chonky* LM19-LSI lens.
+- For **PAW3950** Option
+  * PAW3950DM-T5QU needs to be used with *compact* LOAE-LSI1 lens, or *chonky* LM19-LSI lens.
+  * `R1` should be DNI
+  * `R2` should be closed (with zero ohm resistor)
+  * Pin 2 & 3 should be connecting with a 2.2uf capicator
+
+<img src="photo-3950.jpg" width="400">
+
+*Figure 4: PAW3950 option
 
 ### Board Characteristics
 
